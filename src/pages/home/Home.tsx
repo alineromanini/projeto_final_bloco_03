@@ -13,7 +13,7 @@ function Home() {
             Cadastrar Produto
           </div>
         </div>
-        <img src="https://ik.imagekit.io/j8alkuh75t/Farmacia/8e8709b84d83b67c927f9cd9935ff03ba50e1055.png?updatedAt=1751459608585"
+        <img src="https://ik.imagekit.io/5qjemq96e/farmacia/home.png"
           className="w-2/3 max-w-96 m-auto" alt="Imagem principal da página home" />
       </div>
     </div>
