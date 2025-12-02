@@ -1,6 +1,6 @@
-<div align="center"
-     # Projeto Farmácia Dobrasil
-     </div>
+
+# Projeto Farmácia Dobrasil
+  
 <br />
 
 <div align="center">     
