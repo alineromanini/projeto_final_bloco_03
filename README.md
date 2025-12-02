@@ -56,8 +56,9 @@ A API foi construída com React e oferece funcionalidades completas para o geren
 
 ## 🚀 4. Configuração e Execução
 
+1. Clone o repositório: 
 ```bash
-1. Clone o repositório: git clone https://github.com/alineromanini/projeto_final_bloco_03
+git clone https://github.com/alineromanini/projeto_final_bloco_03
 ```
 
 2. Abra o projeto no VSCode
