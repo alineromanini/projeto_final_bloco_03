@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, Route } from 'react-router-dom'
 import './App.css'
 import Footer from './components/footer/Footer'
 import Navbar from './components/navbar/Navbar'
@@ -11,7 +11,8 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <div className="min-h-[80vh]">
-          <Home />
+           <Route path='/' element={<Home />} />
+           <Route path='/home' element={<Home />} />
         </div>
         <Footer />
       </BrowserRouter>
