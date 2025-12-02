@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import { buscar } from '../../../services/Service'
-import type { Produto } from '../../../models/Produto'
-import CardProdutos from '../deletarprodutos/DeletarProduto'
 import { DNA } from 'react-loader-spinner'
+import type { Produto } from '../../../models/Produto'
+import CardProdutos from '../cardprodutos/CardProdutos'
 
 
 function ListaProdutos() {

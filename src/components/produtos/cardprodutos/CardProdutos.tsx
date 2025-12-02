@@ -2,11 +2,11 @@ import { PencilIcon, TrashIcon } from '@phosphor-icons/react'
 import { Link } from 'react-router-dom'
 import type { Produto } from '../../../models/Produto'
 
-interface CardProdutoProps {
+interface CardProdutosProps {
 	produto: Produto
 }
 
-function CardProdutos({ produto }: Readonly<CardProdutoProps>) {
+function CardProdutos({ produto }: Readonly<CardProdutosProps>) {
 	return (
 		<div className="flex flex-col justify-between overflow-hidden bg-white rounded-lg">
 			<div className="flex items-end justify-end pt-2 pr-2">
@@ -49,7 +49,7 @@ function CardProdutos({ produto }: Readonly<CardProdutoProps>) {
 			</div>
 			<div className="flex flex-wrap">
 				<button
-					className="flex items-center justify-center w-full py-2 text-white bg-purple-500 hover:bg-purple-900"
+					className="flex items-center justify-center w-full py-2 text-white bg-purple-500 hover:bg-violet-900"
 					onClick={() => alert('Função em Desenvolvimento!')}
 				>
 					Comprar
